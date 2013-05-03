@@ -1,0 +1,240 @@
+/*-- Youtube Mods --*/
+
+#ad_creative_1 {
+	display: none;
+}
+
+#homepage-side-content {
+	display: none;
+}
+
+#homepage-masthead-btn {
+	display: none;
+}
+
+.top-videos-module {
+	display: none;
+}
+
+#user-navbar-sections li {
+	width: 460px;
+}
+
+#user-navbar-sections {
+	margin-top: 0px !important;
+	padding-bottom: 3px !important;
+	padding-top: 0px !important;
+}
+
+#watch-sidebar {
+	display: none;
+}
+
+#video-sidebar {
+	display: none;
+}
+
+#search-pva-content {
+	display: none;
+}
+
+.audio_only_button {
+	margin: 0 2px 0 3px !important;
+}
+
+.audio_only_text {
+	width: 100%;
+	height: 510px;
+	margin: 0px;
+	font-size: 50px;
+	font-family: 'helvetica neue';
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 -1px 2px #000;
+	line-height: 510px;
+	background: #555555; /* Old browsers */
+	background: -moz-linear-gradient(top, #555555 0%, #333333 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#333333)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #555555 0%,#333333 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #555555 0%,#333333 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #555555 0%,#333333 100%); /* IE10+ */
+	background: linear-gradient(top, #555555 0%,#333333 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
+}
+
+
+#watch-video-container.hidden {
+	visibility: hidden;
+	position: absolute;
+}
+
+#loop {
+	margin-right: 5px !important;
+}
+
+#feed {
+	margin-right: 0px !important;
+	width: 960px !important;
+}
+
+#feed .feed-container {
+	margin-right: 190px;
+	background-color: #fff;
+}
+
+.feed-item h3 {
+	width: 96%;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.feed-header {
+	border-top-right-radius: 5px;
+	width: 754px;
+}
+
+#watch7-sidebar {
+	display: none;
+}
+
+#rc {
+	display: none;
+}
+
+#feed-pyv-container {
+	display: none;
+}
+
+/*-- Dribbble Mods --*/
+
+body#shots .tabs {
+	display: none;
+}
+
+.body_replacement {
+	font-family: 'helvetica neue';
+	font-size: 40px;
+	color: #444;
+	font-weight: 400;
+	text-align: center;
+	margin: 40px 0px;
+}
+
+#verses {
+	width: 810px;
+	margin: 0 auto;
+	color: #888;
+	font-family: 'helvetica neue';
+	line-height: 19px;
+	font-size: 13px;
+	text-align: center;
+}
+
+#verses p {
+	margin: 20px 0px;
+}
+
+#verses p:first-child {
+	margin-top: 0px;
+}
+
+.ad-top-wrap {
+	display: none;
+}
+
+.ad {
+	display: none;
+}
+
+#screenshot-341518 {
+	visibility: hidden;
+}
+
+/*-- Rdio Mods --*/
+#top_album_grid {
+display: none;
+}
+
+.activity_stream {
+display: none;
+}
+
+/*-- Twitter Mods --*/
+
+div.trends {
+	display: none;
+}
+
+/*-- Dropmark Mods --*/
+
+#items .item.uploading .status {
+	display: none !important;
+}
+
+/*-- Amazon Mods --*/
+
+#gwcswB {
+	visibility: hidden;
+}
+
+/*-- CURE Mods --*/
+
+/*#curedotorg #headerBg {
+	background: url(http://f.cl.ly/items/3t3i0I0n120E1z2X341E/header-bg-design.png) no-repeat top center;
+}
+
+#curedotorg body {
+	background: #eee6d6 url(http://f.cl.ly/items/2W2U1r032x342c29400j/bg.png) repeat left top;
+}*/
+
+/*-- StickerMule Mods --*/
+#masthead-content {
+	display: none;
+}
+
+/*-- eBible Mods --*/
+
+#reading h1 {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+}
+
+#reading h2 {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+
+#reading p {
+	margin: 1.9em !important;
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	color: #444;
+	line-height: 1.7em !important;
+}
+
+#sidebar p {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+
+#sidebar p .serif {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+
+#sidebar-buttons-wrapper {
+	right: 150px;
+}
+
+#sidebar-buttons-wrapper.explain {
+	right: 355px;
+}
+
+section#right-sidebar {
+	right: 30px;
+}
+
+#sidebar-content {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
+
+#right-sidebar .explain.open #explain-container {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+}
