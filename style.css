@@ -106,6 +106,10 @@
 	display: none;
 }
 
+.compact-shelf.yt-uix-shelfslider {
+	display: none;
+}
+
 /*-- Dribbble Mods --*/
 
 body#shots .tabs {
