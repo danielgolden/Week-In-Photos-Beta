@@ -242,3 +242,8 @@ section#right-sidebar {
 #right-sidebar .explain.open #explain-container {
 	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
 }
+
+/*-- CodePen Mods --*/
+.ad {
+	display: none;
+}
