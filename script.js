@@ -2,19 +2,21 @@ $(function () {
 	
 	// Youtube Mods
 	$('#user-navbar-sections').empty().append('<li>Romans 6:21 - What fruit had ye then in those things whereof ye are now ashamed? for the end of those things is <em>death</em>.</li>');
-	$('#watch-share').after('<button class="audio_only_button yt-uix-tooltip-reverse yt-uix-button yt-uix-button-default yt-uix-tooltip">Audio Only</button>');
+	$('#footer-links-primary').append('<li class="audio_only_button"><a href="#">Audio Only Mode</a></li>');
+
+	player_position = $('#player').offset().top;
 
 	$('.audio_only_button').toggle(function() {
-		$('#watch-video-container').addClass('hidden');
-		$('#watch-video-container').after('<h3 class="audio_only_text">Audio Only</h3>');
+		$('#player').addClass('hidden');
+		$('#player').after('<h3 class="audio_only_text" style="top: 0px">Audio Only</h3>');
 	},function () {
 		$('.audio_only_text').remove();
-		$('#watch-video-container').removeClass('hidden');
+		$('#player').removeClass('hidden');
 	});
 
 	$('.audio_only_text').click(function() {
 		$(this).remove();
-		$('#watch-video-container').removeClass('hidden');
+		$('#player').removeClass('hidden');
 	});
 
 	if($('.feed-item-rec').length != 0) {
