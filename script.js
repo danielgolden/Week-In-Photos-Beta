@@ -4,7 +4,7 @@ $(function () {
 	$('#user-navbar-sections').empty().append('<li>Romans 6:21 - What fruit had ye then in those things whereof ye are now ashamed? for the end of those things is <em>death</em>.</li>');
 	$('#footer-links-primary').append('<li class="audio_only_button"><a href="#">Audio Only Mode</a></li>');
 
-	player_position = $('#player').offset().top;
+	// player_position = $('#player').offset().top;
 
 	$('.audio_only_button').toggle(function() {
 		$('#player').addClass('hidden');
@@ -30,6 +30,15 @@ $(function () {
 
 	// Ebible Mods
 	$('#global-header .left-sidebar').remove();
+
+	$('#nav-app').append('<a href="#" class="button trigger-dark-mode">Dark</a>');
+	$('.trigger-dark-mode').toggle(function() {
+		$('body').addClass('dark-mode');
+	}, function() {
+		$('body').removeClass('dark-mode');
+	});
+
+	$('#hide-side-bar').html('&times;')
 	
 });
 

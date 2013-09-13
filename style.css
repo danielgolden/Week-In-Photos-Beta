@@ -248,7 +248,72 @@ section#right-sidebar {
 	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
 }
 
+#questions-sidebar {
+	display: none;
+}
+
+/*#sidebar-buttons-wrapper {
+	display: none;
+}*/
+
+/*-- Dark Mode --*/
+html[itemtype="http://schema.org/Article"] body.dark-mode {
+	background-color: #2f353e;
+}
+
+.dark-mode #reading h1 {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	color: rgba(255,255,255, .75);
+}
+
+.dark-mode #reading h2 a {
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	color: #DAA65A;
+}
+
+.dark-mode #reading p {
+	margin: 1.9em !important;
+	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+	color: rgba(255,255,255, .75);
+	line-height: 1.7em !important;
+}
+
+.dark-mode .bible-pagination {
+	opacity: .3;
+}
+
+.dark-mode .bible-pagination a:hover {
+	background: rgba(0,0,0, .3);
+}
+
+.dark-mode #sidebar-buttons.explain #hide-sidebar {
+	font-size: 22px;
+	padding: 1px 9px 4px !important;
+}
+
+.dark-mode div.fixable.standard.fixed {
+	top: 89px;
+}
+
 /*-- CodePen Mods --*/
 .ad {
+	display: none;
+}
+
+/*-- Social Cam Mods --*/
+
+#bg_img_large {
+	display: none;
+	border: 10px solid blue;
+}
+
+#nfeed_right {
+	display: none;
+}
+
+/*-- Unsplash Mods --*/
+
+#post_60731076930 {
 	display: none;
 }
