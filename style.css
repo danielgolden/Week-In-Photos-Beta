@@ -317,3 +317,9 @@ html[itemtype="http://schema.org/Article"] body.dark-mode {
 #post_60731076930 {
 	display: none;
 }
+
+/*-- Forrst Mods --*/
+
+.promoted-post {
+	display: none;
+}
