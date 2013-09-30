@@ -312,6 +312,10 @@ html[itemtype="http://schema.org/Article"] body.dark-mode {
 	display: none;
 }
 
+#xhrrelatedblock1, #xhrrelatedblock2 {
+	visibility: hidden;
+}
+
 /*-- Unsplash Mods --*/
 
 #post_60731076930 {
