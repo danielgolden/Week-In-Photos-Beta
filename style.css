@@ -324,10 +324,8 @@ html[itemtype="http://schema.org/Article"] body.dark-mode {
 
 /*-- Forrst Mods --*/
 
-.promoted-post {
-	display: none;
-}
-
-.promoted {
+.promoted-post,
+.promoted,
+#post162879 {
 	display: none;
 }
