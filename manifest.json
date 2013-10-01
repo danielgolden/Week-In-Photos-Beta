@@ -8,7 +8,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://www.youtube.com/*", "http://dribbble.com/*", "https://twitter.com/*", "http://www.rdio.com/*", "http://danielgolden.dropmark.com/*", "http://ebible.com/*", "http://www.amazon.com/*", "http://cure.org/*", "http://www.stickermule.com/*", "http://ebible.com/*", "http://codepen.io/*", "https://socialcam.com/*", "http://unsplash.com/*", "http://forrst.com/*"],
+      "matches": ["http://www.youtube.com/*", "http://dribbble.com/*", "https://twitter.com/*", "http://www.rdio.com/*", "http://danielgolden.dropmark.com/*", "http://ebible.com/*", "http://www.amazon.com/*", "http://cure.org/*", "http://www.stickermule.com/*", "http://ebible.com/*", "http://codepen.io/*", "https://socialcam.com/*", "http://unsplash.com/*", "http://new.forrst.com/*"],
       "css": ["style.css"],
 	  "js" : ["jquery-1.6.3.min.js", "script.js"]
     }

@@ -327,3 +327,7 @@ html[itemtype="http://schema.org/Article"] body.dark-mode {
 .promoted-post {
 	display: none;
 }
+
+.promoted {
+	display: none;
+}
