@@ -189,13 +189,13 @@ div.trends {
 
 /*-- CURE Mods --*/
 
-/*#curedotorg #headerBg {
-	background: url(http://f.cl.ly/items/3t3i0I0n120E1z2X341E/header-bg-design.png) no-repeat top center;
+.player-1381514151931 {
+	display: none; /*-- for the CURE U video --*/
 }
 
-#curedotorg body {
-	background: #eee6d6 url(http://f.cl.ly/items/2W2U1r032x342c29400j/bg.png) repeat left top;
-}*/
+.vidbox-a:nth-child(2) {
+	display: none;
+}
 
 /*-- StickerMule Mods --*/
 #masthead-content {
@@ -329,3 +329,4 @@ html[itemtype="http://schema.org/Article"] body.dark-mode {
 #post162879 {
 	display: none;
 }
+
