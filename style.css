@@ -193,7 +193,7 @@ div.trends {
 	display: none; /*-- for the CURE U video --*/
 }
 
-.vidbox-a:nth-child(2) {
+.vidbox-a:nth-child(2tr) {
 	display: none;
 }
 
@@ -330,3 +330,8 @@ html[itemtype="http://schema.org/Article"] body.dark-mode {
 	display: none;
 }
 
+/*-- Lost Type Co-op Mods --*/
+
+a[href="http://www.losttype.com/font/?name=habana"] {
+	display: none;
+}
