@@ -220,6 +220,10 @@ div.trends {
 	line-height: 1.7em !important;
 }
 
+#left-sidebar {
+	display: none;
+}
+
 #sidebar p {
 	font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
 }

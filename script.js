@@ -25,6 +25,7 @@ $(function () {
 
 	// Dribbble Mods
 	$('.compact').empty().append('<strong>Philippians 3:8</strong> - For whom I suffer the loss of <em>all things</em> and do count them but <em>dung</em>…');
+	$('.ad').hide();
 
 	//$('body#shots').replaceWith('<h1 class="body_replacement">Find some place more pleasing to God to find inspiration.</h1> <div id="verses"><p><strong>Philippians 3:7-8</strong> - But what things were gain to me, those I counted loss for Christ. <em>Yea doubtless, and I count all things but loss for the excellency of the knowledge of Christ Jesus my Lord: for whom I have suffered the loss of all things, and do count them but dung, that I may win Christ,</em></p> <p><strong>Ephesians 5:11 - </strong>And have no fellowship with the unfruitful works of darkness, but rather reprove them.</p> <p><strong>1 Thessalonians 5:22 - </strong> Abstain from all appearance of evil.</p></div>');
 
