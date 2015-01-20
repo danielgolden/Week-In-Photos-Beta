@@ -260,6 +260,10 @@ section#right-sidebar {
 	display: none;
 }*/
 
+#bible-footer-ad {
+	display: none;
+}
+
 /*-- Dark Mode --*/
 html[itemtype="http://schema.org/Article"] body.dark-mode {
 	background-color: #2f353e;

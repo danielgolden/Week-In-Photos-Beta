@@ -32,7 +32,8 @@ $(function () {
 	// Ebible Mods
 	$('#global-header .left-sidebar').remove();
 
-	$('nav.menu-margin.dashboard').append('<a href="#" class="button trigger-dark-mode">Dark</a>');
+	$('nav-app').find('.menu:first-child').append('<a href="#" class="button trigger-dark-mode">Dark</a>');
+	$('nav-app').find('a:first-child').hide();
 	$('.trigger-dark-mode').toggle(function() {
 		$('body').addClass('dark-mode');
 	}, function() {
