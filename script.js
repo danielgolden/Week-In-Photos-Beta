@@ -32,8 +32,9 @@ $(function () {
 	// Ebible Mods
 	$('#global-header .left-sidebar').remove();
 
-	$('nav-app').find('.menu:first-child').append('<a href="#" class="button trigger-dark-mode">Dark</a>');
-	$('nav-app').find('a:first-child').hide();
+	$('#nav-app').find('.menu:first-child').append('<a href="#" class="button trigger-dark-mode">Dark</a>');
+	// Trying to remove the questions nav item
+	// $('#nav-app').find('a:first-child').hide();
 	$('.trigger-dark-mode').toggle(function() {
 		$('body').addClass('dark-mode');
 	}, function() {
