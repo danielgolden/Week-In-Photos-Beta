@@ -1,14 +1,14 @@
 {
-  "name": "My First Extension",
+  "name": "Week in Photos - Beta",
   "version": "1",
   "manifest_version": 2,
-  "description": "The first extension that I made.",
+  "description": "Little plugin for Beka to test out the new week in photos format",
   "browser_action": {
     "default_icon": "icon.png"
   },
   "content_scripts": [
     {
-      "matches": ["http://www.youtube.com/*", "https://www.youtube.com/*", "https://dribbble.com/*", "https://twitter.com/*", "http://www.rdio.com/*", "http://danielgolden.dropmark.com/*", "https://ebible.com/*", "http://www.amazon.com/*", "http://cure.org/*", "http://local.cure.org/*", "http://www.stickermule.com/*", "http://ebible.com/*", "http://codepen.io/*", "https://socialcam.com/*", "http://unsplash.com/*", "http://new.forrst.com/*", "http://www.losttype.com/*"],
+      "matches": ["https://cure.org/*"],
       "css": ["style.css"],
 	  "js" : ["jquery-1.6.3.min.js", "script.js"]
     }
